@@ -1,0 +1,11 @@
+
+public class CompareFile extends ReadTxt{
+	private ReadTxt doc1;
+	private ReadTxt doc2;
+	public CompareFile() {
+		super();
+		this.doc1 = 
+		this.doc2 = 
+	}
+	
+}

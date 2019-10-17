@@ -1,0 +1,13 @@
+
+public class ReadFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ReadTxt readedFile = new ReadTxt();
+		//readedFile.read();
+		UpDownRead backecFile = new UpDownRead();
+		backecFile.upside("zzz");
+		
+	}
+
+}

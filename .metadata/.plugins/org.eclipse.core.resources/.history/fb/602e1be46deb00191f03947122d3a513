@@ -1,0 +1,8 @@
+
+public class ReadTxt extends AbastractReadFile {
+	
+
+	public void read() {
+		readFile();
+	}
+}

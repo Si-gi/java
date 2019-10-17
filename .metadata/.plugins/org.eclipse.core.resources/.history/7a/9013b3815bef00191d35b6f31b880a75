@@ -1,0 +1,27 @@
+
+public class Player {
+	public static float Hp = 100;
+	private String name;
+	private Weapon weapon;
+	public static boolean status[] = {false,false,false,false,false};
+	
+	public Player(String name) {
+		this.name = name;
+		this.weapon = null,
+	}
+	
+	public float getHp() {
+		return this.Hp;
+	}
+	public void setHp(float hp) {
+		this.Hp = hp;
+	}
+	
+	public void changeStatu(int index) {
+		this.status[index] = (status[index]) ? false : true;
+	}
+	
+	public void attack(Monster m) {
+		
+	}
+}

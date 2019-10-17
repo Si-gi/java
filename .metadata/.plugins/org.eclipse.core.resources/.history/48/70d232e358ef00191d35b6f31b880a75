@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class Dessein{
+	
+	private ArrayList<FormeGeometrique> formes;
+	
+	public Dessein(ArrayList<FormeGeometrique> formes) {
+		this.formes = formes;
+	}
+
+}

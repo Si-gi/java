@@ -1,0 +1,11 @@
+
+public class CompareFile{
+	private ReadTxt doc1;
+	private ReadTxt doc2;
+	public CompareFile(String file1, String file2) {
+		
+		this.doc1 = new ReadTxt(file1);
+		this.doc2 = new ReadTxt(file2);
+	}
+	
+}

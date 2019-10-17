@@ -1,0 +1,23 @@
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+
+abstract public class AbastractReadFile {
+
+	public static void readFile(String file){
+		try {
+		FileInputStream flux = new FileInputStream("/Documents/FichierJava.txt");
+		InputStreamReader lecture = new InputStreamReader(flux);
+		BufferedReader buff = new BufferedReader(lecture);
+		String ligne;
+		while((ligne=buff.readLine()) != null) {
+			System.out.println(ligne);
+		}
+		buff.close();
+		}catch(Exception e) {
+			System.out.println(e.toString());
+		}
+	}
+	
+	
+}

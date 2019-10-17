@@ -1,0 +1,17 @@
+import java.util.Stack;
+
+public class UpDownRead extends AbastractReadFile {
+
+	private String updsideDown;
+	private Stack<String> list = new Stack<String>();
+	public upDownRead(String file) {
+		
+	}
+	public void upside(String original) {
+		 super().readFile("w.ascii_art()");
+		 this.list.push(original);
+		 for(int i = list.size(); i >0 ; i--) {
+			 System.out.println(list.pop());
+		 }
+	}
+}

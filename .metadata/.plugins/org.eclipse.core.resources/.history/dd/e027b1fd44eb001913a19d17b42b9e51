@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class WeaponStore {
+
+	int number_weapons = 3 ;
+	Number extra_damage =new Integer(42);
+	static ArrayList<Weapon> store = new ArrayList<>();
+	Weapon axe =new Axe();
+	Weapon hammer =new Hammer();
+	store@.add(axe);
+	public double price(Weapon w) {
+			return w.price();
+		}
+}

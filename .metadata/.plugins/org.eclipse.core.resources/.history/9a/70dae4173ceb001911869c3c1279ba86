@@ -1,0 +1,9 @@
+
+public class UpDownRead {
+
+	String updsideDown;
+	
+	public void upside(String original) {
+		
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class ReadTxt extends AbastractReadFile {
+	
+	public ReadTxt(String fileName) {
+		super(fileName);
+	}
+
+	public void read() {
+		readFile();
+	}
+	
+	public boolean compare(ReadTxt file2) {
+		private ArrayList<String> thisFile = this.readFile();
+		
+	}
+}

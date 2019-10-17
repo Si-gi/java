@@ -1,0 +1,27 @@
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+abstract public class AbastractReadFile {
+
+	public static ArrayList<String> readFile(String file){
+		ArrayList<String> text = new ArrayList<>();
+		try {
+		FileInputStream flux = new FileInputStream("C:\\Users\\licence.PW04\\Documents\\FichierJava.txt");
+		InputStreamReader lecture = new InputStreamReader(flux);
+		BufferedReader buff = new BufferedReader(lecture);
+		String ligne;
+		while((ligne=buff.readLine()) != null) {
+			System.out.println(ligne);
+			text.add(ligne);
+		}
+		buff.close();
+		}catch(Exception e) {
+			System.out.println(e.toString());
+		}
+		return text;
+	}
+	
+	
+}

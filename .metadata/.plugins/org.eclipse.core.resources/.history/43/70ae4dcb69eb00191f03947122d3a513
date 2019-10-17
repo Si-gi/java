@@ -1,0 +1,21 @@
+
+public class Player {
+	public static float Hp = 100;
+	private String name;
+	public static boolean status[] = {false,false,false,false,false};
+	
+	public Player(String name) {
+		this.name = name;
+	}
+	
+	public float getHp() {
+		return this.Hp;
+	}
+	public void setHp(float hp) {
+		this.Hp = hp;
+	}
+	
+	public void changeStatu(int index) {
+		status[index] = true;
+	}
+}

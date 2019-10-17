@@ -1,0 +1,10 @@
+
+public abstract class Weapon {
+
+	protected double dmg;
+	protected double price;
+
+	public Weapon(double damage) {
+		this.dmg = damage;
+	}
+}
