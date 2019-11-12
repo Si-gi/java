@@ -39,9 +39,6 @@ public class JeuPrincipal {
 
 			tempCartesp1.add(cartep1);
 			tempCartesp2.add(cartep2);
-			if(p1Alea == 13 && p2Alea == 12) {
-				System.out.println("ACAB");
-			}
 			if( cartep1.getIndex(cartep1.getValeur()) < cartep2.getIndex(cartep2.getValeur()) ){
 				for(Carte carte: tempCartesp1) {
 					p2.addCarte(carte);
