@@ -27,8 +27,7 @@ abstract public class AbastractReadFile {
 			System.out.println(e.toString());
 		}
 		return text;
-	}
-	
+	}	
 	public void upside() {
 		 ArrayList<String> text = readFile();
 		 
@@ -42,8 +41,9 @@ abstract public class AbastractReadFile {
 		for(int i = fileContent.length() -1; i>= 0; i--) {
 			palindrom += fileContent.charAt(i);
 		}
+		String result = fileContent + palindrom;
 		System.out.println(palindrom);
-		System.out.println(fileContent);
+		System.out.println(result);
 	}
 	
 	public boolean diff(AbastractReadFile file2) {

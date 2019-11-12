@@ -6,8 +6,9 @@ public class ReadFile {
 		ReadTxt testFile2 = new ReadTxt("C:\\Users\\licence.PW04\\Documents\\java\\test2.txt");
 		//readedFile.read();
 		testFile1.upside();
-		//testFile1.palindrom();
-		//testFile1.compare(testFile2);
+		testFile1.palindrom();
+		boolean b = testFile1.compare(testFile2);
+		System.out.print(b);
 	}
 
 }

@@ -1,8 +1,0 @@
-
-public class Hammer extends Weapon{
-	private static final double DAMAGE = 20;
-	private static final double PRICE = 11.0;
-	public Hammer() {
-		super(DAMAGE,PRICE);
-	}
-}
