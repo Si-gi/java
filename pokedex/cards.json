@@ -1,0 +1,44 @@
+{
+  "listCards": [
+    {
+      "type": "PokemonCard",
+      "properties": {
+        "hp": 20,
+        "attacks": [
+          {
+            "name": "Fire ball",
+            "desc": "Cast a fire ball ",
+            "power": 30
+          }
+        ],
+        "cardName": "Charmander",
+        "id": 1,
+        "image": "",
+        "element": "Fire",
+        "description": "it's a pokemon"
+      }
+    },
+    {
+      "type": "TrainerCard",
+      "properties": {
+        "text": "catch Pokemon",
+        "trainerRule": "",
+        "cardName": "PokeBall",
+        "id": 2,
+        "image": "",
+        "element": "item",
+        "description": "it's a trainer"
+      }
+    },
+    {
+      "type": "EnergyCard",
+      "properties": {
+        "cardName": "Energy",
+        "id": 3,
+        "image": "",
+        "element": "Fire",
+        "description": "it'es a energy"
+      }
+    }
+  ]
+}
